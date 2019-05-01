@@ -415,57 +415,171 @@ li {
 
 /* MEDIA QUERIES */
 
-/* @media only screen
-and (min-device-width: 500px) {
+@media only screen
+and (min-width: 641px) and (max-width: 800px) {
     .image {
         width: auto;
-        height: 400px;
+        height: 600px;
         display: block;
         margin: 0 auto;
     }
     .blurb {
         font-size: 12px;
+        display: block;
+        margin: 0 auto;
     }
     #balance {
-        width: 300px;
+        width: 500px;
+        /* display: block;
+        margin: 0 auto; */
     } 
     #balance .blurb {
         text-align: center;
+        /* display: block;
+        margin: 0 auto; */
     }
     #proximity {
-        width: 300px;
+        width: 500px;
+        /* display: block;
+        margin: 0 auto; */
     }
     #proximity .blurb {
         text-align: center;
+        /* display: block;
+        margin: 0 auto; */
     }
     #alignment {
-        width: 300px;
+        width: 500px;
+        /* display: block;
+        margin: 0 auto; */
     }
     #alignment .blurb {
         text-align: center;
+        /* display: block;
+        margin: 0 auto; */
     }
     #repitition {
-        width: 300px;
+        width: 500px;
+        /* display: block;
+        margin: 0 auto; */
     }
     #repitition .blurb {
         text-align: center;
+        /* display: block;
+        margin: 0 auto; */
     }
     #contrast {
-        width: 300px;
+        width: 500px;
+        /* display: block;
+        margin: 0 auto; */
     }
     #contrast .blurb {
         text-align: center;
+        /* display: block;
+        margin: 0 auto; */
     }
     #space {
-        width: 300px;
+        width: 500px;
+        /* display: block;
+        margin: 0 auto; */
     }
     #space .blurb {
         text-align: center;
+        /* display: block;
+        margin: 0 auto; */
     }
     .decorative {
         font-size: 3.5em;
+        /* display: block;
+        margin: 0 auto; */
     }
-} */
+    .wrapper h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
+
+@media only screen
+and (min-width: 350px) and (max-width: 641px) {
+    .image {
+        width: auto;
+        height: 600px;
+        display: block;
+        margin: auto;
+    }
+    .blurb {
+        font-size: 12px;
+        display: block;
+        margin: 0 auto;
+    }
+    #balance {
+        width: 400px;
+        margin: auto;
+    } 
+    #balance .blurb {
+        text-align: center;
+        margin: auto;
+    }
+    #proximity {
+        width: 400px;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #proximity .blurb {
+        text-align: center;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #alignment {
+        width: 400px;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #alignment .blurb {
+        text-align: center;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #repitition {
+        width: 400px;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #repitition .blurb {
+        text-align: center;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #contrast {
+        width: 400px;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #contrast .blurb {
+        text-align: center;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #space {
+        width: 400px;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #space .blurb {
+        text-align: center;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    .decorative {
+        font-size: 3.5em;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    .wrapper h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
 
 
 @media only screen 
@@ -519,5 +633,89 @@ and (-webkit-device-pixel-ratio : 3) {
     }
     .decorative {
         font-size: 3.5em;
+    }
+}
+
+@media only screen
+and (min-width: 768px) and (max-width: 1000px) {
+    .image {
+        width: auto;
+        height: 500px;
+        display: block;
+        margin: 0 auto;
+    }
+    .blurb {
+        font-size: 12px;
+        display: block;
+        margin: 0 auto;
+    }
+    #balance {
+        width: 400px;
+        /* display: block;
+        margin: 0 auto; */
+    } 
+    #balance .blurb {
+        text-align: center;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #proximity {
+        width: 400px;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #proximity .blurb {
+        text-align: center;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #alignment {
+        width: 400px;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #alignment .blurb {
+        text-align: center;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #repitition {
+        width: 400px;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #repitition .blurb {
+        text-align: center;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #contrast {
+        width: 400px;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #contrast .blurb {
+        text-align: center;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #space {
+        width: 400px;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #space .blurb {
+        text-align: center;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    .decorative {
+        font-size: 3.5em;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    .wrapper h1 {
+        font-size: 1.5em;
+        text-align: center;
     }
 }
