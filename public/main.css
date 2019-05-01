@@ -56,6 +56,16 @@ body {
     font-size: 2em;
 }
 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+    .wrapper h1 {
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
 .line {
     width: 5em;
     height: 3px;
@@ -196,7 +206,7 @@ li {
 
 .core-principles {
     /* height: 100vh;  */
-    width: 100vw;
+    width: 100%;
     /* background-image: linear-gradient(to bottom, white, grey); */
     background-color: whitesmoke;
 }
@@ -401,4 +411,60 @@ li {
     justify-content: center;
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+    .image {
+        width: auto;
+        height: 400px;
+        display: block;
+        margin: 0 auto;
+    }
+    .blurb {
+        font-size: 12px;
+    }
+    #balance {
+        width: 300px;
+    } 
+    #balance .blurb {
+        text-align: center;
+    }
+    #proximity {
+        width: 300px;
+    }
+    #proximity .blurb {
+        text-align: center;
+    }
+    #alignment {
+        width: 300px;
+    }
+    #alignment .blurb {
+        text-align: center;
+    }
+    #repitition {
+        width: 300px;
+    }
+    #repitition .blurb {
+        text-align: center;
+    }
+    #contrast {
+        width: 300px;
+    }
+    #contrast .blurb {
+        text-align: center;
+    }
+    #space {
+        width: 300px;
+    }
+    #space .blurb {
+        text-align: center;
+    }
+    .decorative {
+        font-size: 3.5em;
+    }
 }
